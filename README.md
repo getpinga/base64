@@ -1,10 +1,10 @@
-# PHP-Base64
+# Pinga Base64
 
 Simple and convenient Base64 encoding and decoding for PHP
 
 ## Requirements
 
- * PHP 5.3.0+
+ * PHP 8.1.0+
 
 ## Installation
 
