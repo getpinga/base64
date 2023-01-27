@@ -1,15 +1,18 @@
 <?php
 
-/*
- * PHP-Base64 (https://github.com/delight-im/PHP-Base64)
- * Copyright (c) delight.im (https://www.delight.im/)
- * Licensed under the MIT License (https://opensource.org/licenses/MIT)
+/**
+ * Pinga Base64
+ *
+ * Written in 2023 by Taras Kondratyuk (https://getpinga.com)
+ * Based on PHP-Base64 (https://github.com/delight-im/PHP-Base64) by delight.im (https://www.delight.im/)
+ *
+ * @license MIT
  */
 
-namespace Delight\Base64;
+namespace Pinga\Base64;
 
-use Delight\Base64\Throwable\DecodingError;
-use Delight\Base64\Throwable\EncodingError;
+use Pinga\Base64\Throwable\DecodingError;
+use Pinga\Base64\Throwable\EncodingError;
 
 /** Utilities for encoding and decoding data using Base64 and variants thereof */
 final class Base64 {
